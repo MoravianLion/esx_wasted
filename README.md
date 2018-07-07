@@ -11,7 +11,6 @@ I am not very proud of the result, but so far, it gets it's job done. I've been 
 **Known bugs:**
 
 - I can't turn off the autorespawn after death, script instead in few milliseconds will spawn the player to hospital
-- bank account is not refreshing after death
 
 **To do:**
 
