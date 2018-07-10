@@ -47,6 +47,7 @@ Citizen.CreateThread(function()
 	while true do
 		Wait(0)
 		if IsEntityDead(GetPlayerPed(-1)) then
+			
 			Wait(3500) -- Time until respawn 15s
 			NetworkResurrectLocalPlayer(295.83, -1446.94, 29.97, true, true, false)
 			RemoveAllPedWeapons(GetPlayerPed(-1), true)
@@ -54,6 +55,7 @@ Citizen.CreateThread(function()
 			ClearPedLastDamageBone(GetPlayerPed(-1))
 			ClearPedTasks(GetPlayerPed(-1))
 			TriggerServerEvent('esx_wastedscreen:moneyloss')
+			--TriggerEvent('skinchanger:loadSkin', skin) 		spawnmanager - by this line is replaced line 255
 		end
 	end
 end)
