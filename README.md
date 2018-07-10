@@ -7,6 +7,11 @@ I am not very proud of the result, but so far, it gets it's job done. I've been 
 **3) money loss in SQL for ESX servers as prevention against random idiots who would shoot anybody on sight, "because they can"**
 
   as a result of above, it should force players to rather try to play cool or go dirty and risk jail (in case of my server - temp ban). But the risk of getting shot should be the last option, as with current script set up, the player will loose almost all money both in cash and bank account.
+  
+**v0.7** - added dirty money removal (+ recommendation of replacing line 255 in "**spawnmanager**" to -- **TriggerEvent(‘skinchanger:loadSkin’, skin)** -- Hopefully, there will be more elegant workaround in future)
+
+**v0.6** - added UI refresh for bank account
+
 
 **Known bugs:**
 
